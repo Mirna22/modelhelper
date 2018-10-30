@@ -1,0 +1,19 @@
+Package: modelhelper
+Title: Modeling helper functions
+Version: 1.0
+Authors@R: 'Mirna Domancic <mirna.domancic@gmail.com> [aut, cre]'
+Description: modelhelper contians functions that implement comonly used modeling code to speed up the modeling process
+Depends: R (>= 3.3.2)
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    purrr,
+    xgboost,
+    ROCR,
+    pROC
+Suggests: rBayesianOptimization,
+    stabs,
+    fuzzyjoin,
+    caret,
+    data.table
+RoxygenNote: 6.0.1
